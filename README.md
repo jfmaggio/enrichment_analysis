@@ -12,15 +12,15 @@ Key features include:
 
 ## 🛠️ Tools & Libraries
 
-The analysis is primarily implemented in **R**, leveraging the following Bioconductor and CRAN packages:
+The analysis is primarily implemented Python:
 - `clusterProfiler`: For ORA.
-- `org.Hs.eg.db` / `org.Mm.eg.db`: For genome-wide annotation (Human/Mouse).
+- `org.Hs.eg.db`: For genome-wide annotation (Human).
 - `enrichplot`: For advanced visualization of enrichment results.
 - `ggplot2`: For custom data plotting.
 
 ## 📂 Project Structure
 
-- `data/`: Contains input files (e.g., DESeq2 output, gene lists, or `.rnk` files).
+- `data/`: Contains input files.
 - `scripts/`: R scripts for data processing and running the enrichment algorithms.
 - `results/`: Output tables and high-resolution figures.
 
@@ -28,4 +28,4 @@ The analysis is primarily implemented in **R**, leveraging the following Biocond
 
 1. **Clone the repository**:
    ```bash
-   git clone [https://github.com/jfmaggio/enrichment_analysis.git](https://github.com/jfmaggio/enrichment_analysis.git)
+   git clone https://github.com/jfmaggio/enrichment_analysis.git
